@@ -1,0 +1,35 @@
+#include <iostream>
+
+int sum_from_to(int first, int last) {
+    int sum = 0;
+    for(int i = first; i <= last; ++i) {
+        sum += i;
+    }
+    return sum;
+}
+
+int main() {
+    int first = 3;
+    int last = 7;
+    int result = sum_from_to(first, last);
+    std::cout << "The sum from " << first << " to " << last << " is: " << result << std::endl;
+    return 0;
+}
+AND BELOW QUESTION THREE B
+#include <iostream>
+
+int sum_from_to(int first, int last) {
+    int sum = 0;
+    for(int i = first; i <= last; ++i) {
+        sum += i;
+    }
+    return sum;
+}
+
+int main() {
+    int first = 3;
+    int last = 7;
+    int result = sum_from_to(first, last);
+    std::cout << "The sum from " << first << " to " << last << " is: " << result << std::endl;
+    return 0;
+}
